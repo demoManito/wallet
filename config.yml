@@ -1,0 +1,14 @@
+http:
+  port: ":8848"
+
+db:
+  host: '127.0.0.1' # 8.0.16 MySQL
+  port: 3306
+  name: 'wallet'
+  user: 'root'
+  pass: '123456789'
+
+redis:
+  addr: '127.0.0.1:6379'
+  # password: '' # default: ''
+  db: 1
